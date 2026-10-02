@@ -51,7 +51,8 @@ To develop and release your Patches using this template:
 
 - **Make all changes to the `dev` branch.**
 - For local development work build your patches using the gradle task `./gradlew buildAndroid` to generate the mpp file found in `patches/build/libs/patches-*.mpp`. Apply your patches locally using Morphe Desktop tool like any other patch bundle.
-- Always use [Semantic commit](https://kapeli.com/cheat_sheets/Semantic_Commits.docset/Contents/Resources/Documents/index) messages for commits. To keep it simple use only 3 commit message types: 
+- Always use [Semantic commit](https://kapeli.com/cheat_sheets/Semantic_Commits.docset/Contents/Resources/Documents/index) messages for commits. To keep it simple use only 3 commit message types:
+  - `feat: initial release`
   - `feat: Added a new feature`
   - `fix: Some problem now fixed`
   - `chore: Random change you do not want in the user facing changelog`
